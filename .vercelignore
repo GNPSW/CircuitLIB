@@ -1,0 +1,6 @@
+CircuitLIB/
+.env*
+tests/
+test-results/
+docs/
+scripts/
