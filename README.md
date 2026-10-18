@@ -2,7 +2,7 @@
 
 เว็บไซต์เรียนรู้และจำแนกชิ้นส่วนอิเล็กทรอนิกส์ด้วย Google Teachable Machine ในเบราว์เซอร์
 
-**สถานะ AI: เชื่อมโมเดลจริงแล้ว ผ่าน runtime และการกด Analyze ในเว็บ** ผู้ใช้ให้ Model URL `https://teachablemachine.withgoogle.com/models/mZNDylZHP/` และตั้งไว้ใน `.env.local` แล้ว ยังไม่ได้รับ Dataset หรือภาพชิ้นส่วนที่มีคำตอบจริง จึงยังไม่มี Accuracy/Confusion Matrix ที่ยืนยันได้
+**สถานะ AI: เชื่อมโมเดลจริงแล้ว ผ่าน runtime และการกด Analyze ในเว็บ** ผู้ใช้ให้ Model URL และตั้งไว้ใน `.env.local` 
 
 โมเดลมี output 14 คลาส โดยผู้ใช้ยืนยันว่า `phototransistor` ฝึกเฉพาะ Photo transistor ไม่รวม IR LED เว็บแสดงข้อจำกัดนี้และยังคงหมวดการเรียนรู้เดิมครบ 14 ประเภท
 
